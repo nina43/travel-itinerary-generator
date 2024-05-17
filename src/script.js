@@ -21,10 +21,6 @@ function generateItinerary(event) {
   itineraryElement.classList.remove("hidden");
   itineraryElement.innerHTML = `<div class="blink" >⏳ An itinerary for <strong> ${instructionsInput.value} </strong> is being generated</div>`;
 
-  console.log("generating itinerary");
-  console.log(`prompt: ${prompt}`);
-  console.log(`context: ${context}`);
-
   axios.get(apiUrl).then(displayItinerary);
 }
 
