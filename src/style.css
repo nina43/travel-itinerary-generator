@@ -48,6 +48,9 @@ form {
   line-height: 24px;
   border-left: 4px solid #2b4598;
 }
+.itinerary strong {
+  color: #2b4598;
+}
 
 footer {
   text-align: center;
